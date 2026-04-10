@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Media Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        img,
+        video {
+            width: 60%;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        audio {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Green Valley High School</h1>
+
+        <h2>School Building</h2>
+        <img src="school.jpg" alt="School Building">
+
+        <h2>School Anthem</h2>
+        <audio controls>
+            <source src="anthem.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>School Introduction Video</h2>
+        <video controls>
+            <source src="school_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+
+</body>
+
+</html>
